@@ -1,0 +1,17 @@
+@import 'styles/utilities/variables.scss';
+@import 'styles/utilities/functions.scss';
+@import 'styles/utilities/mixins.scss';
+@import 'styles/utilities/responsiveness.scss';
+
+@import 'styles/vendors/vendors.scss';
+
+@import 'styles/base/reset.scss';
+@import 'styles/base/typograhpy.scss';
+@import 'styles/base/base.scss';
+@import 'styles/base/grid.scss';
+
+@import 'components/Navigation/navigation.scss';
+@import 'components/Footer/footer.scss';
+
+@import 'pages/home/home.scss';
+
