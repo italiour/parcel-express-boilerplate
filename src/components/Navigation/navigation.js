@@ -1,9 +1,8 @@
-import { App } from '../../index.js'
-
 export class Navigation {
 
-  constructor() {
+  constructor(router) {
 
+		this.router = router
     this.DOM = document.getElementById('navigation')
     this.DOM.innerHTML = this.getHtml()
     this.DOM.addEventListener('click', this)
@@ -22,7 +21,7 @@ export class Navigation {
 
     switch(e.target){
       case this.DOM.homeLink:
-        App.onNavigate('/')
+        this.router.onNavigate('/')
         break
       default:
         break
