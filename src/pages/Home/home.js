@@ -12,7 +12,7 @@ export class Home {
   fetchData = async () => {
     var data = await getData()
     if(data.status) {
-      console.log(data)
+      // Handle data
     }
   }
 }
