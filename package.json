@@ -49,6 +49,7 @@
   "dependencies": {
     "@prismicio/client": "^6.7.3",
     "@prismicio/helpers": "^2.3.9",
+    "@studio-freight/lenis": "^0.2.28",
     "body-parser": "^1.20.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
@@ -78,7 +79,7 @@
         "single",
         {
           "allowTemplateLiterals": true,
-          "avoidEscape": true 
+          "avoidEscape": true
         }
       ]
     },

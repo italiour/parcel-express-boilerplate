@@ -1,5 +1,6 @@
-import { Footer } from './Components/Footer/footer'
+import { lenis } from './Utils/Lenis'
 import { Navigation } from './Components/Navigation/navigation'
+import { Footer } from './Components/Footer/footer'
 import { Home } from './Pages/Home/home'
 
 const rootDiv = document.getElementById('root')
@@ -11,6 +12,8 @@ const routes = {
 export class App {
 
   constructor() {
+
+		this.lenis = lenis
 
     this.navigation = new Navigation()
 		this.footer = new Footer()
