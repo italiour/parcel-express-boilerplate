@@ -1,11 +1,21 @@
 {
   "name": "parcel_boilerplate",
   "version": "1.0.0",
-  "description": "A parcel boilerplate optimized for production build.",
+  "description": "A single page application boilerplate fetching html through javascript, utilizing parcel bundler, implementing spa routing, using express as a back end and loading content through prismic.",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": [
     "src/index.html",
     "./app.mjs"
+  ],
+  "type": "module",
+  "keywords": [
+    "single page application",
+    "parcel",
+    "boilerplate",
+    "spa routing",
+    "express",
+    "prismic",
+    "eslint"
   ],
   "scripts": {
     "start": "conc --kill-others \"npm run express-development\" \"npm run development\"",
@@ -45,5 +55,33 @@
     "express": "^4.18.2",
     "gsap": "^3.11.4",
     "node-fetch": "^3.3.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "node": true,
+      "es2022": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "globals": {
+      "IS_DEVELOPMENT": "readonly"
+    },
+    "rules": {
+      "semi": [
+        "error",
+        "never"
+      ],
+      "quotes": [
+        "error",
+        "single",
+        "backtick"
+      ]
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    }
   }
 }

@@ -31,7 +31,7 @@ export class Navigation {
   }
 
   getHtml() {
-    return `<a href="#" class="home__link">Home</a>`
+    return `<a href="#" class="home__link"></a>`
   }
   
 }
