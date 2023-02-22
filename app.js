@@ -2,7 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import bodyParser from 'body-parser'
 import * as prismicH from '@prismicio/helpers'
-import { client } from './prismicConfig.mjs'
+import { client } from './prismicConfig.js'
 
 const app = express()
 app.use(cors())

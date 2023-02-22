@@ -5,7 +5,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": [
     "src/index.html",
-    "./app.mjs"
+    "./app.js"
   ],
   "type": "module",
   "keywords": [
@@ -21,8 +21,8 @@
     "start": "conc --kill-others \"npm run express-development\" \"npm run development\"",
     "development": "parcel",
     "build": "parcel build",
-    "express-build": "node app.mjs",
-    "express-development": "nodemon app.mjs"
+    "express-build": "node app.js",
+    "express-development": "nodemon app.js"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
