@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "start": "conc --kill-others \"npm run express-development\" \"npm run development\"",
-    "development": "parcel",
+    "development": "parcel --open --port 3000",
     "build": "parcel build",
     "express-build": "node app.js",
     "express-development": "nodemon app.js"
@@ -59,7 +59,6 @@
   "eslintConfig": {
     "env": {
       "browser": true,
-      "commonjs": true,
       "node": true,
       "es2022": true
     },

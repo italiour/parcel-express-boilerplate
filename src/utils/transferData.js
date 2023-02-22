@@ -1,4 +1,4 @@
-let serverPath = process.env.NODE_ENV === "development" ? "http://localhost:" : "https://yourdomain.com"
+let serverPath = process.env.NODE_ENV === 'development' ? 'http://localhost:' : 'https://yourdomain.com'
 
 export const getData = (query='') => {
   try {
