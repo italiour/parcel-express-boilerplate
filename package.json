@@ -1,7 +1,7 @@
 {
   "name": "parcel_boilerplate",
   "version": "1.0.0",
-  "description": "A single page application boilerplate fetching html through javascript, utilizing parcel bundler, implementing spa routing, using express as a back end and loading content through prismic.",
+  "description": "A single page application boilerplate fetching html through javascript, utilizing parcel bundler, implementing spa routing, styling with sass, using express as a back end and loading content through prismic.",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": [
     "src/index.html",
@@ -15,7 +15,8 @@
     "spa routing",
     "express",
     "prismic",
-    "eslint"
+    "eslint",
+		"sass"
   ],
   "scripts": {
     "start": "conc --kill-others \"npm run express-development\" \"npm run development\"",
