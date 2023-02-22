@@ -1,5 +1,6 @@
-import { Navigation } from './components/Navigation/navigation'
-import { Home } from './pages/Home/home'
+import { Footer } from './Components/Footer/footer'
+import { Navigation } from './Components/Navigation/navigation'
+import { Home } from './Pages/Home/home'
 
 const rootDiv = document.getElementById('root')
 
@@ -12,7 +13,9 @@ export class App {
   constructor() {
 
     this.navigation = new Navigation()
+		this.footer = new Footer()
     rootDiv.innerHTML = routes[window.location.pathname].getHtml()
+
     routes[window.location.pathname].fetchData()
 
     window.addEventListener('popstate', () => {

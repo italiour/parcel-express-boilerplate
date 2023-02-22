@@ -1,14 +1,14 @@
-@import 'styles/utilities/variables.scss';
-@import 'styles/utilities/functions.scss';
-@import 'styles/utilities/mixins.scss';
-@import 'styles/utilities/responsiveness.scss';
+@import 'Styles/utilities/variables.scss';
+@import 'Styles/utilities/functions.scss';
+@import 'Styles/utilities/mixins.scss';
+@import 'Styles/utilities/responsiveness.scss';
 
-@import 'styles/vendors/vendors.scss';
+@import 'Styles/vendors/vendors.scss';
 
-@import 'styles/base/reset.scss';
-@import 'styles/base/typograhpy.scss';
-@import 'styles/base/base.scss';
-@import 'styles/base/grid.scss';
+@import 'Styles/base/reset.scss';
+@import 'Styles/base/typograhpy.scss';
+@import 'Styles/base/base.scss';
+@import 'Styles/base/grid.scss';
 
 @import 'components/Navigation/navigation.scss';
 @import 'components/Footer/footer.scss';

@@ -1,4 +1,4 @@
-import { getData } from '../../utils/transferData.js'
+import { getData } from '../../Utils/transferData.js'
 
 export class Home {
 
