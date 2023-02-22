@@ -6,7 +6,7 @@ export class Home {
   
   getHtml() {
     document.title = "Page Name";
-    return `<div></div>`
+    return `<div class="home"></div>`
   }
 
   fetchData = async () => {
