@@ -1,6 +1,6 @@
-import { lenis } from './Utils/Lenis'
+import { lenis } from './Utils/lenis'
 import { Navigation } from './Components/Navigation/navigation'
-import { Router } from './Utils/Router'
+import { Router } from './Utils/router'
 import { Footer } from './Components/Footer/footer'
 
 export class App {
