@@ -1,5 +1,5 @@
-import { Navigation } from "./components/Navigation/navigation"
-import { Home } from "./pages/Home/home"
+import { Navigation } from './components/Navigation/navigation'
+import { Home } from './pages/Home/home'
 
 const rootDiv = document.getElementById('root')
 
@@ -15,7 +15,7 @@ export class App {
     rootDiv.innerHTML = routes[window.location.pathname].getHtml()
     routes[window.location.pathname].fetchData()
 
-    window.addEventListener('popstate', (e) => {
+    window.addEventListener('popstate', () => {
       rootDiv.innerHTML = routes[window.location.pathname].getHtml()
     })
 

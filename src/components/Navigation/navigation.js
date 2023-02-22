@@ -1,4 +1,4 @@
-import { App } from "../../index.js"
+import { App } from '../../index.js'
 
 export class Navigation {
 
@@ -13,7 +13,7 @@ export class Navigation {
   }
 
   handleEvent(e) {
-    this.clickEvent(e);
+    this.clickEvent(e)
   }
 
   clickEvent(e) {

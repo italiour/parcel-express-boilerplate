@@ -77,7 +77,10 @@
       "quotes": [
         "error",
         "single",
-        "backtick"
+        {
+          "allowTemplateLiterals": true,
+          "avoidEscape": true 
+        }
       ]
     },
     "parserOptions": {
